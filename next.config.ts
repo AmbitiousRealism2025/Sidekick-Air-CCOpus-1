@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
 
+  eslint: {
+    // Run ESLint separately via `npm run lint`
+    ignoreDuringBuilds: true,
+  },
+
   poweredByHeader: false,
   reactStrictMode: true,
 };

@@ -28,9 +28,8 @@
   --accent: var(--burnt-copper);
   --muted: var(--mist-grey);
 
-  /* Typography Scale */
-  --font-display: "Cabinet Grotesk", system-ui, sans-serif;
-  --font-body: "Satoshi", system-ui, sans-serif;
+  /* Typography Scale - fonts loaded via Next.js Google Fonts */
+  /* --font-display and --font-body are set by Next.js font system */
 
   /* Spacing */
   --section-padding-y: clamp(4rem, 10vw, 8rem);
@@ -61,7 +60,6 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-body);
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +71,6 @@ body {
    ============================================ */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;

@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
   output: "standalone",
+
+  // Explicitly set the project root for standalone builds
+  outputFileTracingRoot: path.join(__dirname),
 
   images: {
     remotePatterns: [],

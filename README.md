@@ -84,9 +84,9 @@ This project is configured for **Kilo Deploy** with:
 
 ## Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
+- **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript (strict mode)
-- **Styling**: Tailwind CSS v4
+- **Styling**: Tailwind CSS v3
 - **Animation**: Framer Motion
 - **Fonts**: Google Fonts (Outfit, Plus Jakarta Sans)
 
